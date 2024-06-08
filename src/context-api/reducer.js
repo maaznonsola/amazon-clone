@@ -15,6 +15,13 @@ const reducer = (state, action) => {
         ...state,
         basket: [...state.basket, action.item],
       };
+
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
+
     default:
       return state;
   }
