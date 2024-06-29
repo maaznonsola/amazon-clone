@@ -7,6 +7,8 @@ import Login from "./components/Login";
 import Checkout from "./components/Checkout";
 import {auth} from "./firebase/firebase";
 import {useStateValue} from "./context-api/StateProvider";
+import Payment from "./components/Payment";
+import Orders from "./components/Orders";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -53,6 +55,24 @@ function App() {
               <>
                 <Header />
                 <Checkout />
+              </>
+            }
+          />
+          <Route
+            path="/payment"
+            element={
+              <>
+                <Header />
+                <Payment />
+              </>
+            }
+          />
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Orders />
               </>
             }
           />
