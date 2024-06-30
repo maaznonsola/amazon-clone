@@ -43,7 +43,7 @@ export const products_R1 = [
 
 export const products_R2 = [
   {
-    id: 1,
+    id: 6,
     title: "Redmi Note 9 Pro (Interstellar Black, 4GB RAM, 64GB Storage)",
     image:
       "https://images-eu.ssl-images-amazon.com/images/I/51Fc-xm6bKL._AC_US160_.jpg",
@@ -51,7 +51,7 @@ export const products_R2 = [
     rating: 4,
   },
   {
-    id: 2,
+    id: 7,
     title: "Redmi 9 (Sky Blue, 4GB RAM, 64GB Storage)",
     image:
       "https://images-eu.ssl-images-amazon.com/images/I/41Ki5S4HEoL._AC_US160_.jpg",
@@ -59,7 +59,7 @@ export const products_R2 = [
     rating: 3,
   },
   {
-    id: 3,
+    id: 8,
     title: "Samsung Galaxy M31s(6GB RAM, 128GB Storage)",
     image:
       "https://images-eu.ssl-images-amazon.com/images/I/41cVLRT2gyL._AC_US160_.jpg",
@@ -67,7 +67,7 @@ export const products_R2 = [
     rating: 4,
   },
   {
-    id: 4,
+    id: 9,
     title: "Nokia 105 2019 (Single SIM, Black)",
     image:
       "https://images-eu.ssl-images-amazon.com/images/I/31Z2ee9oYQL._AC_US160_.jpg",
@@ -78,7 +78,7 @@ export const products_R2 = [
 
 export const products_R3 = [
   {
-    id: 1,
+    id: 10,
     title: "pTron Bassbuds in-Ear True Wireless Bluetooth Headphones(Black)",
     image:
       "https://images-eu.ssl-images-amazon.com/images/I/418XVTLmVNL._AC_US160_.jpg",
@@ -86,7 +86,7 @@ export const products_R3 = [
     rating: 3,
   },
   {
-    id: 2,
+    id: 11,
     title:
       "Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440",
     image:
@@ -98,7 +98,7 @@ export const products_R3 = [
 
 export const products_R4 = [
   {
-    id: 1,
+    id: 12,
     title:
       "The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback",
     image:
@@ -107,7 +107,7 @@ export const products_R4 = [
     rating: 4,
   },
   {
-    id: 2,
+    id: 13,
     title:
       "Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl",
     image:
