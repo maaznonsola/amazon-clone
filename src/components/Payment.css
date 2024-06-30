@@ -50,3 +50,22 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+
+.card__element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__number {
+  margin-right: 10px;
+  width: 100%;
+}
+
+.card__expiry {
+  margin-right: 10px;
+  width: 50%;
+}
+
+.card__cvc {
+  width: 40%;
+}
