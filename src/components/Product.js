@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.css";
+/* import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder"; */
 import {useStateValue} from "../context-api/StateProvider";
 
 function Product({id, title, image, price, rating}) {
@@ -22,6 +23,7 @@ function Product({id, title, image, price, rating}) {
   return (
     <div className="product">
       <div className="product__info">
+        {/* <FavoriteBorderIcon className="product__favoriteIcon" /> */}
         <p>{title}</p>
         <p className="product__price">
           <small>₹</small>
